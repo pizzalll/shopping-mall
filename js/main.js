@@ -21,8 +21,36 @@
 //     });
 // });
 
-$('.slider').imagesLoaded(function(){
-    $(document).ready(function(){
+// $('.slider').imagesLoaded(function(){
+//     $(document).ready(function(){
+//         $('.slider').bxSlider({
+//             mode: 'fade',
+//             auto: true,
+//             pager: true,
+//             pause: 4000,
+//         });
+//     });
+// });
+
+
+// $('.bxslider').imagesLoaded(function(){
+//     $(document).ready(function(){
+//         $('.bxslider').bxSlider({
+//             auto: true,
+//             pause: 6000,
+//             minSlides: 1,
+//             maxSlides: 3,
+//             slideWidth: 300,
+//             pager: false,
+//             controls: false,
+//             slideMargin: 150,
+//             speed: 700,
+//         });
+//     });
+// });
+
+$(function(){
+    $('.slider').imagesLoaded(function(){
         $('.slider').bxSlider({
             mode: 'fade',
             auto: true,
@@ -30,11 +58,8 @@ $('.slider').imagesLoaded(function(){
             pause: 4000,
         });
     });
-});
 
-
-$('.bxslider').imagesLoaded(function(){
-    $(document).ready(function(){
+    $('.bxslider').imagesLoaded(function(){
         $('.bxslider').bxSlider({
             auto: true,
             pause: 6000,
