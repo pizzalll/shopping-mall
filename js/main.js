@@ -21,7 +21,7 @@
 //     });
 // });
 
-$('#main_banner').imagesLoaded(function(){
+$('.slider').imagesLoaded(function(){
     $(document).ready(function(){
         $('.slider').bxSlider({
             mode: 'fade',
@@ -33,7 +33,7 @@ $('#main_banner').imagesLoaded(function(){
 });
 
 
-$('#review').imagesLoaded(function(){
+$('.bxslider').imagesLoaded(function(){
     $(document).ready(function(){
         $('.bxslider').bxSlider({
             auto: true,
